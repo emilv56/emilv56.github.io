@@ -1,1 +1,113 @@
+/* Website styling — intentionally matched to the Word document */
 
+html,
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 10pt;
+  line-height: 1.15;
+}
+
+/* The Word page has a normal document-style left margin. */
+.page {
+  width: 6.5in;
+  max-width: calc(100% - 2in);
+  margin-top: 0.65in !important;
+  margin-left: 1in !important;
+  margin-right: 1in !important;
+  padding: 0 0 0.5in 0 !important;
+}
+
+/* Name: Arial Black, as requested. */
+.name {
+  margin: 0 0 0.78in 0 !important;
+  padding: 0 !important;
+  font-family: "Arial Black", Arial, Helvetica, sans-serif !important;
+  font-size: 24pt !important;
+  line-height: 1 !important;
+  font-weight: 900 !important;
+  letter-spacing: normal !important;
+}
+
+/* Section headings */
+h2 {
+  margin: 0 0 0.42in 0 !important;
+  padding: 0 !important;
+  font-family: "Arial Black", Arial, Helvetica, sans-serif !important;
+  font-size: 14pt !important;
+  line-height: 1.05 !important;
+  font-weight: 900 !important;
+  text-decoration: underline !important;
+}
+
+.project {
+  margin: 0 0 0.39in 0 !important;
+  padding: 0 !important;
+}
+
+.project h3 {
+  margin: 0 0 0.08in 0 !important;
+  padding: 0 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 12pt !important;
+  line-height: 1.15 !important;
+  font-weight: 600 !important;
+  font-style: bold !important;
+}
+
+.description {
+  margin: 0 0 0.07in 0 !important;
+  padding-left: 0.25in !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 10pt !important;
+  line-height: 1.15 !important;
+  font-style: italic !important;
+}
+
+.links {
+  margin: 0 !important;
+  padding-left: 0.25in !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 10pt !important;
+  line-height: 1.15 !important;
+}
+
+.links a {
+  color: #0000EE !important;
+  text-decoration: underline !important;
+  margin-right: 0.03in !important;
+}
+
+.links a:hover {
+  text-decoration: underline !important;
+}
+
+.notes {
+  margin-top: 0.08in !important;
+}
+
+.notes h2 {
+  margin-bottom: 0.42in !important;
+}
+
+@media (max-width: 800px) {
+  .page {
+    width: auto !important;
+    max-width: none !important;
+    margin-left: 48px !important;
+    margin-right: 48px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .page {
+    margin-left: 32px !important;
+    margin-right: 32px !important;
+  }
+}
